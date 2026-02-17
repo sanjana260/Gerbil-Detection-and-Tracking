@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['adult_back', 'adult_front', 'pup_fluffy', 'pup_h_stripe', 'pup_spotted', 'pup_v_stripe']
+
+roboflow:
+  workspace: sanes-lab-rgjdl
+  project: gerbil-tracking-test
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sanes-lab-rgjdl/gerbil-tracking-test/dataset/3
