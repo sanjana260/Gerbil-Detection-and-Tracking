@@ -115,7 +115,7 @@ def get_video_output(VIDEO_INPUT, VIDEO_OUTPUT, CSV_OUTPUT, frame_coords):
     import csv
 
     # YOLOv8s-seg.pt with 80 epochs
-    yolov8s_80epochs_640 = "runs/segment/gerbil_training/yolov8s_seg_finetune_640/weights/best.pt"
+    yolov8s_80epochs_640 = "runs/segment/gerbil_training/yolov8s_seg_finetune_640_new/weights/best.pt"
 
     model = YOLO(yolov8s_80epochs_640)
 
