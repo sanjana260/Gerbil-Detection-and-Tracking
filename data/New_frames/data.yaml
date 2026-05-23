@@ -1,0 +1,5 @@
+train: ../train/images
+val: ../valid/images
+
+nc: 6
+names: ['adult_back', 'adult_front', 'pup_fluffy', 'pup_h_stripe', 'pup_spotted', 'pup_v_stripe']
